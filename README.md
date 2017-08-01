@@ -13,8 +13,8 @@
 
 ## Commands
 
-gulp build 					-> craeting dev build version
-gulp build --prod 			-> creating prod (minfied) version
-gulp jshit					-> manual run of jshint
-gulp clean					-> manual cleaning (remove build directory)
+1) gulp build 					-> craeting dev build version
+2) gulp build --prod 			-> creating prod (minfied) version
+3) gulp jshit					-> manual run of jshint
+4) gulp clean					-> manual cleaning (remove build directory)
 
