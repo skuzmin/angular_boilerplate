@@ -1,23 +1,45 @@
 {
-  "name": "angular_start",
-  "version": "1.0.0",
-  "description": "",
+  "name": "angularjs_boilerplate",
+  "version": "0.0.0",
+  "description": "AngularJS starter (seed) project",
   "main": "server.js",
   "scripts": {
-    "test": "node server/server.js"
+    "start": "node server.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skuzmin/angular_boilerplate.git"
+  },
+  "author": "Sergiy Kuzmin",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
     "serve-static": "^1.11.1"
   },
+  "homepage": "https://github.com/skuzmin/angular_boilerplate#readme",
+  "dependencies": {},
   "devDependencies": {
+    "del": "^2.2.2",
+    "express": "^4.14.0",
     "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-inject": "^4.1.0",
     "gulp-jshint": "^2.0.4",
+    "gulp-json-editor": "^2.2.1",
     "gulp-less": "^3.3.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^7.1.2",
+    "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.7",
     "jshint": "^2.9.4",
-    "jshint-stylish": "^2.2.1"
+    "jshint-stylish": "^2.2.1",
+    "run-sequence": "^1.2.2",
+    "wiredep": "^4.0.0"
   }
 }

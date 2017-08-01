@@ -1,0 +1,10 @@
+.app-footer {
+  height: 50px;
+  background-color: #c0c0c0;
+  border-top: 1px solid #c0c0c0;
+  padding: 10px;
+}
+.app-footer-info {
+  color: #808080;
+  font-size: 13px;
+}
