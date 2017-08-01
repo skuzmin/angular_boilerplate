@@ -17,3 +17,4 @@ gulp build 					-> craeting dev build version
 gulp build --prod 			-> creating prod (minfied) version
 gulp jshit					-> manual run of jshint
 gulp clean					-> manual cleaning (remove build directory)
+
